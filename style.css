@@ -5,9 +5,10 @@
 }
 html, body{
    background: #1f2937;
+   font-family: Arial, sans-serif;
 }
 header, main{
-    margin: 10px 100px 0px 100px;
+    margin: 20px 150px 0px 150px;
 }
 .nav-bar{
     display: flex;
@@ -31,7 +32,7 @@ header, main{
 .description{
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 120px;
 }
 .description h1{
     font-size: 48px;
@@ -48,7 +49,7 @@ header, main{
     color: #e5e7eb;
     font-weight: bold;
     font-size: 18px;
-    padding: 10px 30px;
+    padding: 10px 25px;
     border-radius: 10px;
 }
 .description h2{
@@ -62,16 +63,16 @@ header, main{
     padding: 10px 100px 0px 100px;
     margin-top: 100px;
     background: #f9faf8;
+    text-align: center;
 }
 .random-info h1{
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
-    padding-top: 15px;
-    text-align: center;
+    padding-top: 40px;    
 }
 #box{
-    padding-top: 20px;
+    padding-top: 40px;
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
@@ -81,14 +82,17 @@ header, main{
     border: #3882f6 solid 5px;
     flex: 1;
     padding: 2rem;
+    padding-bottom: 0;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
+    height: 200px;
 }
 .box-words{
     flex: 1;
     padding: 2rem;
     padding-top: 0;
-    text-align: center; 
+    text-align: center;
+    font-size: 18px; 
 }
 .quote{
     padding: 10px 100px 0px 100px;
@@ -96,8 +100,8 @@ header, main{
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 cite{
     font-weight: bold;
@@ -105,15 +109,36 @@ cite{
     float: right;
 }
 #action{
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
     background: #f9faf8;
     
 }
 .action-description{
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     font-size: 20px;
     background: #3882f6;
     border-radius: 10px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+#action button{
+    background: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8 solid 2px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+span{
+    color: whitesmoke;
+    font-weight: lighter;
 }
 footer{
     padding-top: 40px;
@@ -122,10 +147,4 @@ footer{
     color: #e5e7eb;
     font-size: 20px;
 }
-#action button{
-    background: #3882f6;
-    color: #f9faf8;
-    border: #f9faf8 solid 2px;
-    border-radius: 10px;
-    padding: 10px;
-}
+
