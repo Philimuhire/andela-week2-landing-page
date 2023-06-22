@@ -4,8 +4,10 @@
     padding: 0;
 }
 html, body{
-   margin: 10px 100px 0px 100px;
    background: #1f2937;
+}
+header, main{
+    margin: 10px 100px 0px 100px;
 }
 .nav-bar{
     display: flex;
@@ -57,9 +59,73 @@ html, body{
     
 }
 .random-info{
+    padding: 10px 100px 0px 100px;
     margin-top: 100px;
     background: #f9faf8;
-    padding-left: calc(100% - 200px);
-    padding-right: calc(100% - 200px);
-    overflow: hidden;
+}
+.random-info h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    padding-top: 15px;
+    text-align: center;
+}
+#box{
+    padding-top: 20px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+.item{
+    border: #3882f6 solid 5px;
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.box-words{
+    flex: 1;
+    padding: 2rem;
+    padding-top: 0;
+    text-align: center; 
+}
+.quote{
+    padding: 10px 100px 0px 100px;
+    background: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+cite{
+    font-weight: bold;
+    font-style: normal;
+    float: right;
+}
+#action{
+    padding: 50px;
+    background: #f9faf8;
+    
+}
+.action-description{
+    padding: 50px;
+    font-size: 20px;
+    background: #3882f6;
+    border-radius: 10px;
+}
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+#action button{
+    background: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8 solid 2px;
+    border-radius: 10px;
+    padding: 10px;
 }
